@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     <Gauche />
-    <Droite />
+    <Droite :info="{info}" />
   </div>
 </template>
 
 <script>
-// import Header from '@/components/Header';
+import Axios from 'axios'
 import Gauche from '@/components/Gauche'
 import Droite from '@/components/Droite'
 
@@ -15,6 +15,19 @@ export default {
   components: {
     Gauche,
     Droite
+  },
+  data () {
+    return {
+      info: null
+    }
+  },
+  mounted () {
+    Axios
+      .get('https://openschool.art/pad/p/news.montebello.ooo/export/txt')
+      .then( response => {
+        return this.info = response.data
+      })
+      .catch(error => console.log(error))
   }
 }
 </script>

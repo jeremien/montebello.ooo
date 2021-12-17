@@ -13,26 +13,46 @@ html, body {
     margin: 0;
 }
 
-body {
-    /* background-color: red; */
+@media screen and (min-width: 992px) {
+    .gauche {
+        width: 40%;
+    }
+
+    .droite {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .gauche {
+        width: 100%;
+    }
+
+    .droite {
+        width: 100%;
+    }
 }
 
 .container {
     display: flex;
     color: #0400DD;
-    /* width: 100vh; */
     height: 100vh;
+    
 }
 
 
 .gauche {
     background-color: white ;
-    width: 50%;
+    /* width: 40%; */
     padding-left: 20px;
 }
 
 .gauche p {
-    width: 80%;
+    width: 90%;
 }
 
 .gauche a {
@@ -42,12 +62,28 @@ body {
 
 .droite {
     background-color: #00D14E;
-    width: 50%;
-    padding-left: 20px;
+    /* width: 60%; */
+    /* padding-left: 20px; */
+    display: flex;
+    flex-direction: column;
 }
 
 .droite a {
     color: #0400DD;
+}
+
+.news {
+    padding-left: 20px;
+    color: azure;
+    background-color: #0400DD;
+}
+
+.news p {
+    width: 90%;
+}
+
+.resident {
+    padding-left: 20px;
 }
 
 
