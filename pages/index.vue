@@ -1,15 +1,20 @@
 <template>
   <div class="container">
-    <Header />
+    <Gauche />
+    <Droite />
   </div>
 </template>
 
 <script>
-import Header from '@/components/Header';
+// import Header from '@/components/Header';
+import Gauche from '@/components/Gauche'
+import Droite from '@/components/Droite'
+
 export default {
   name: 'IndexPage',
   components: {
-    Header
+    Gauche,
+    Droite
   }
 }
 </script>
