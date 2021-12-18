@@ -23,7 +23,7 @@
             Bus C9 et C12 arrêt Fosse aux Ours ou Guillotière Gabriel Péri<br>
             Tram T1 arrêt Guillotière Gabriel Péri<br>
             <br>
-            <a href="https://instagram.com/espace.montebello">@espace.montebello</a>
+            <a href="https://instagram.com/espacemontebello">@espace.montebello</a>
         </p>
     </div>
 </template>
