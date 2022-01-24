@@ -6,7 +6,7 @@
         <div class="resident">
             <p>Les résident·e·s :<br>
                 <a href="http://margauxauria.fr/">Margaux Auria</a><br>
-                <a href="#">Laura Ben Haïba</a><br>
+                <a href="#">Mathilde Reynaud</a><br>
                 <a href="https://merrylbouchereau.com/">Merryl Bouchereau</a><br>
                 <a href="https://www.geraldinegrammon.com/">Géraldine Grammon</a><br>
                 <a href="http://helenehulak.com/">Hélène Hulak</a><br> 
