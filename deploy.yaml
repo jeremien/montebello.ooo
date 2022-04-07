@@ -1,0 +1,26 @@
+---
+- name: Deploiement
+  hosts: 46.226.105.161
+
+  tasks:
+    - name: Synchronize data from local to server
+      synchronize:
+        src: /home/jeremie/Code/montebello.ooo/
+        dest: /home/debian/montebello.ooo
+        delete: yes
+        rsync_path: "sudo rsync"
+        recursive: true
+        rsync_opts:
+          - "--exclude=.git"
+          - "--exclude=node_modules"
+    - name: Docker down
+      shell: 
+        cmd: "docker stop montebello.ooo"
+    - name: Docker build
+      shell:
+        cmd: "docker build -t montebello_app ."
+        chdir: /home/debian/montebello.ooo
+    - name: Docker up
+      shell:
+        cmd: "docker run --name montebello.ooo -d -it -p 3000:3000 montebello_app"
+        chdir: /home/debian/montebello.ooo
