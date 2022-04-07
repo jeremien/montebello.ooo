@@ -16,7 +16,10 @@
         <p>
             espace(at)montebello.ooo
             <br>
-            6 rue Montebello,<br> 
+            Adresse :<br>
+            6 rue Montebello,<br><br> 
+            Adresse Postale:<br>
+            5 cours Gambetta,<br> 
             69003 Lyon<br>
             <br>
             Accès : Métro D arrêt Guillotière<br>
