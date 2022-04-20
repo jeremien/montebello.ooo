@@ -4,7 +4,7 @@
             <p>{{info.info}}</p>
         </div>
         <div class="resident">
-            <p>Les résident·e·s :<br>
+            <p>Les résident·e·s:<br>
                 <a href="http://margauxauria.fr/">Margaux Auria</a><br>
                 <a href="https://mathildereynaud.com/">Mathilde Reynaud</a><br>
                 <a href="https://merrylbouchereau.com/">Merryl Bouchereau</a><br>
