@@ -7,15 +7,19 @@
             d&rsquo;une association de diffusion d’art contemporain ainsi qu’un espace d’exposition. 
         </p>
         <p>
-            Pour toute demande de visite ou de rencontre n&rsquo;hésitez pas à nous contacter à l&rsquo;adresse espace(at)montebello.ooo
+            Pour toute demande de visite ou de rencontre n&rsquo;hésitez pas à nous contacter à l&rsquo;adresse mail : espace(at)montebello.ooo
+        </p>
+
+        <p>
+            L'espace Montebello a sa boutique en ligne pour acquérir les productions de ses résidents.<br>
+            <a href="https://shop.montebello.ooo">shop.montebello.ooo</a>
+
         </p>
 
         <p>
             Le Montebello est un projet porté par l&rsquo;association Cagnard, avec le soutien de la métropole de Lyon.
         </p>
         <p>
-            espace(at)montebello.ooo
-            <br>
             Adresse:<br>
             6 rue Montebello,<br><br> 
             Adresse Postale:<br>
